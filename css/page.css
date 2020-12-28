@@ -1,0 +1,227 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #000;
+}
+.box{
+	position: fixed;
+	width: 30%;
+	height: 60%;
+	text-align: center;
+	top: 15%;
+	margin: auto;
+	/*margin-top: -280px;*/
+	border-radius: 50%;
+	background-color: #000;
+
+}
+.img{
+	position: relative;
+	width: 90%;
+	height: 90%;
+	margin: auto;
+	top: 50%;
+	margin-top: -260px;
+}
+
+.img img{
+	width: 100%;
+	height: 100%;
+	transition: all 1s;
+}
+/*.img img:hover{
+	transform: rotate(360deg);
+}*/
+.action{
+	transform: rotate(360deg);
+}
+
+.left{
+	position: fixed;
+	width: 20%;
+	height: 100%;
+	background-color: #eee;
+	display: inline-block;
+}
+
+.rig{
+	position: relative;
+	width: 80%;
+	overflow-x: auto;
+	float: right;
+}
+
+.text{
+	position: relative;
+	width: 660px;
+	overflow-y: auto;
+	margin-top: 25%;
+	left: 20%;
+	/*margin-left: -330px;*/
+}
+.text img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+.mod{
+	position: fixed;
+	width: 200px;
+	height: 200px;
+	right: 80px;
+	top: 40px;
+
+}
+.mod img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+/*.hu{
+	position: relative;
+	width: 85%;
+	height: 300px;
+	overflow: hidden;
+}
+.huxian{
+	position: absolute;
+	width: 100%;
+	height: 1700px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	left: 20%;
+	top:20%;
+}*/
+
+
+.list{
+	position: fixed;
+	width: 200px;
+	overflow-y: auto;
+	right: 80px;
+	z-index: 9999;
+	top: 240px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	/*display: none;*/
+	/*background-color: #f40;*/
+}
+.list ul li{
+	position: relative;
+	width: 200px;
+	height: 70px;
+	line-height: 30px;
+	list-style: none;
+	color: #fff;
+	text-align: center;
+
+}
+.list ul li a{
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	width: 100%;
+	height: 55px;
+}
+.list ul li:nth-child(1) a{
+	background-image: url(../images/button/01-1.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.list ul li:nth-child(1) a:hover{
+	background-image: url(../images/button_hover/01-2.png);
+}
+
+.list ul li:nth-child(2) a{
+	background-image: url(../images/button/02-1.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.list ul li:nth-child(2) a:hover{
+	background-image: url(../images/button_hover/02-2.png);
+}
+
+.list ul li:nth-child(3) a{
+	background-image: url(../images/button/03-1.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.list ul li:nth-child(3) a:hover{
+	background-image: url(../images/button_hover/02-3.png);
+}
+
+.list ul li:nth-child(4) a{
+	background-image: url(../images/button/04-1.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.list ul li:nth-child(4) a:hover{
+	background-image: url(../images/button_hover/04-2.png);
+}
+
+.list ul li:nth-child(5) a{
+	background-image: url(../images/button/05-1.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.list ul li:nth-child(5) a:hover{
+	background-image: url(../images/button_hover/05-2.png);
+}
+
+.list ul li:nth-child(6) a{
+	background-image: url(../images/button/06-1.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.list ul li:nth-child(6) a:hover{
+	background-image: url(../images/button_hover/06-2.png);
+}
+
+.list ul li:nth-child(7) a{
+	background-image: url(../images/button/07-1.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.list ul li:nth-child(7) a:hover{
+	background-image: url(../images/button_hover/07-2.png);
+}
+
+.list ul li:nth-child(1) .action1{
+	background-image: url(../images/button_click/01-3.png);
+}
+.list ul li:nth-child(2) .action2{
+	background-image: url(../images/button_click/02-3.png);
+}
+.list ul li:nth-child(3) .action3{
+	background-image: url(../images/button_click/03-3.png);
+}
+.list ul li:nth-child(4) .action4{
+	background-image: url(../images/button_click/04-3.png);
+}
+.list ul li:nth-child(5) .action5{
+	background-image: url(../images/button_click/05-3.png);
+}
+.list ul li:nth-child(6) .action6{
+	background-image: url(../images/button_click/06-3.png);
+}
+.list ul li:nth-child(7) .action7{
+	background-image: url(../images/button_click/07-3.png);
+}
+
+.hr{
+	position: fixed;
+	top: 250px;
+	width: 60%;
+	left: 30%;
+	background-color: #fcc;
+	height: 2px;
+	transform: rotate(-5deg);
+}
+
